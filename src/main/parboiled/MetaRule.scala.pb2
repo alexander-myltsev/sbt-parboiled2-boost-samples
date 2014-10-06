@@ -1,0 +1,7 @@
+expression ::= bracketed(ab) ~ bracketed(cd)
+
+ab ::= "ab"
+
+cd ::= "cd"
+
+bracketed(inner) ::= "foo" ~ "[" ~ inner ~ "].."

@@ -1,0 +1,5 @@
+InputLine ::= &(A ~ "c") ~ oneOrMore("a") ~ B ~ !("a" | "b" | "c") ~ EOI
+
+A: Rule0  ::= "a" ~ optional(A) ~ "b"
+
+B: Rule0  ::= "b" ~ optional(B) ~ "c"

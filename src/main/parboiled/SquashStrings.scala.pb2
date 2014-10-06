@@ -1,0 +1,1 @@
+InputLine ::= "a" ~ "b" ~ "c" ~ "e" | "g" ~ "f" | "k" | optional("a" ~ "bc")
